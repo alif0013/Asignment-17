@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+    overflow: hidden;
+}
+/* heaeder section start  */
+.main-header{}
+
+.header-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.left-heading-btn-span{
+    width: 50%;
+}
+
+.heading-span{
+    display: flex;
+    margin-bottom: 20px;
+}
+.heading-span span{
+    height: 120px;
+    width: 4px;
+    background-color: #FF5959;
+    display: block;
+    margin-top: 20px;
+}
+.heading-span h1 b{
+    color: #FFAD5A;
+}
+.heading-span h1{
+    padding: 20px;
+    width: 394px;
+    /* display: block; */
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 60px;
+}
+
+.header-content{}
+.header-content p{}
+.header-content a{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 11px;
+    width: 155px;
+    font-size: 14px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+.header-content h4{
+    font-weight: 400;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+/* heading image right */
+.right-img{
+    width: 50%;
+}
+.right-img img{
+    height: 510px;
+    width: 425px;
+    margin: auto;
+}
+
+/* header section end  */
+/* My Mission section start  */
+.my-mission-section{
+
+}
+.mission-heading{
+    padding: 60px;
+}
+.mission-heading h1{
+    text-align: center;
+    font-size: 42px;
+}
+.mission-heading h1 b{
+    color: #FFAD5A;
+}
+
+.my-mission-catagory{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ilustrator-card{
+    width: 33.33%;
+    padding: 25px;
+   
+}
+
+.card-wrapper{
+    background-color: #EDF5F6;
+    border-radius: 25px;
+
+}
+
+.card-wrapper h3{
+
+margin: 0 20px;
+}
+.card-wrapper img{
+    padding: 60px;
+    margin-bottom: -25px;
+}
+
+.card-wrapper p{
+    padding: 0 0 15px 0;
+    margin: 20px 0px 0px 20px;
+}
+
+/* my mission section end */
+
+/* Develop with limi section start */
+.develop-section{}
+
+.img-content-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 20px;
+}
+.left-img{
+    width: 40%;
+    padding: 30px;
+}
+.left-img .img-1{
+    margin-top: 125px;
+    margin-left: -50px;
+    width: 200px;
+    height: 210px;
+}
+.left-img .img-2{
+    margin-top: -260px;
+    margin-left: 30px;
+}
+
+.right-content{
+    width: 60%;
+    padding: 90px;
+}
+.right-content h1{
+    font-size: 40px;
+    margin: 20px 0;
+}
+.right-content p{
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    margin: 0 0 30px;
+    line-height: 29px;
+}
+.right-content a{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 11px;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.section2-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+}
+
+.left-content-2{
+    width: 60%;
+    padding: 45px;
+}
+.left-content-2 h1{
+    font-size: 40px;
+    margin: 20px 0;
+}
+.left-content-2 p{
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    margin: 0 0 30px;
+    line-height: 29px;
+}
+.left-content-2 a{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 11px;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.right-image{
+    width: 40%;
+    padding: 55px;
+    position: relative;
+}
+.right-image .img-3{
+    /* z-index: 333; */
+    margin-top: 30px;
+}
+.right-image .img-4{
+    width: 155px;
+    height: 145px;
+    margin: -92px 215px;
+    z-index: -5;
+    position: absolute;
+}
+
+
+
+
+
+.footer-section{
+    text-align: center;
+    background-color: #0B0D17;
+    padding: 80px;
+}
+
+.footer-section h4{
+    font-size: 25px;
+    color: #c9c9c9;
+
+}
+.footer-section h4 b{
+    color: #FE5959;
+}
+.footer-section h5{
+    color: #c9c9c9;
+    font-size: 15px;
+}
