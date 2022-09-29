@@ -19,7 +19,7 @@ img{
     overflow: hidden;
 }
 /* heaeder section start  */
-.main-header{}
+
 
 .header-wrapper{
     width: 100%;
@@ -54,8 +54,7 @@ img{
     line-height: 60px;
 }
 
-.header-content{}
-.header-content p{}
+
 .header-content a{
     text-decoration: none;
     background-color: tomato;
@@ -87,9 +86,7 @@ img{
 
 /* header section end  */
 /* My Mission section start  */
-.my-mission-section{
 
-}
 .mission-heading{
     padding: 60px;
 }
@@ -137,7 +134,7 @@ margin: 0 20px;
 /* my mission section end */
 
 /* Develop with limi section start */
-.develop-section{}
+
 
 .img-content-wrapper{
     width: 100%;
